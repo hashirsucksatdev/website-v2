@@ -136,10 +136,10 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Altare',
-      title: 'CEO',
+      company: 'Home',
+      title: 'something',
       logo: altare,
-      start: '2025',
+      start: 'Form brith',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
@@ -223,29 +223,29 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Ether
+          Snezzy
         </title>
         <meta
           name="description"
-          content="I guess I'm Ether."
+          content="I guess I'm Snezzy or Hashir."
         />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            local mentally insane fullstack software engineer
+            snezzy
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            i&apos;m ether. i founded the world&apos;s largest free 24/7 host 9 times, I also built Skyport, Heliactyl, Radar, Argon and more
+            i&apos;m snezzy. 
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://twitter.com/etherxr"
-              aria-label="Follow on X"
-              icon={TwitterIcon}
+              href="https://instagram.com/actullysnezzy"
+              aria-label="Follow on Instagram"
+              icon={InstagramIcon}
             />
             <SocialLink
-              href="https://github.com/etherxr"
+              href="https://github.com/hashirsucksatdev"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
